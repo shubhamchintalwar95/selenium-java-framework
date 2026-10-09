@@ -4,9 +4,7 @@ package utilities;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-import baselayer.BaseClass;
-
-public class Listner extends BaseClass implements  ITestListener  {
+public class Listner implements  ITestListener  {
 
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -26,10 +24,6 @@ public class Listner extends BaseClass implements  ITestListener  {
 	public void onTestFailure(ITestResult result) {
 		
 		System.out.println("Execution Failed :-" + result.getName());
-		//ScreenshotUtiliti.Takescreenshot(null);
-		ScreenshotUtiliti.Takescreenshot(result.getName());
-		
-		logger.info("=============Screenshot Captured=============");
 
 	}
 
