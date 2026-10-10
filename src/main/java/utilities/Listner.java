@@ -17,6 +17,8 @@ public class Listner implements  ITestListener  {
 	public void onTestSuccess(ITestResult result) {
 
 		System.out.println("Execution Success :-" + result.getName());
+		
+		
 
 	}
 

@@ -1,11 +1,16 @@
 package baselayer;
 
+import java.io.File;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+
+//import org.apache.log4j.PropertyConfigurator;
+//import org.apache.logging.log4j.LogManager;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -28,20 +33,21 @@ public class BaseClass {
  	public LoginPageclass LoginPageclass_obj;
 	public static Logger logger;
  	@BeforeTest()
- 	public void start() {
+public void start() {
  		
  		String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 
-		String logFile = "./log/testlog_" + timestamp + ".log";
+		String logFile = "./log/tetlog_" + timestamp + ".log";
 
 		System.setProperty("logFile", logFile);
 		
 		logger = Logger.getLogger("*** Test Data Driven Opencart Project ***");
+		
 		PropertyConfigurator.configure("log4jfile.properties");
+		
 		
 		logger.info("-------- Open cart framework execution started --------");
 		
- 		
  	}
  	
  	@AfterTest()
@@ -75,7 +81,7 @@ public class BaseClass {
 	}
 		
 		
-		// driver= new ChromeDriver();
+		//driver= new ChromeDriver();
 		driver.get("https://naveenautomationlabs.com/opencart/index.php?");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -92,7 +98,7 @@ public class BaseClass {
 	
 	public void TearDown() {
 		
-	driver.quit();
+	driver.close();
 		
 	}
 	

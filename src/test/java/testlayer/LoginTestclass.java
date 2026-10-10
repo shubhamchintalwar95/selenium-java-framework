@@ -8,6 +8,13 @@ import pagelayer.Homepageclass;
 import pagelayer.LoginPageclass;
 
 public class LoginTestclass extends BaseClass {
+	
+	@Test
+	public void testLogger() {
+
+		logger.info("This is a test logger message");
+		
+	}
 
 	@Test
 	public void tc01_VerifyLogin_with_Valid_Credential() throws InterruptedException {
@@ -16,18 +23,20 @@ public class LoginTestclass extends BaseClass {
 		Homepageclass_obj.clickonAccountlink();
 		Homepageclass_obj.clickonLoginButton();
 		
-		logger.info("landing on log in page");
+	logger.info("landing on log in page");
 		
 		LoginPageclass LoginPageclass_obj =new LoginPageclass(driver);
 		
 		LoginPageclass_obj.enteremailadress("sctest@gmail.com");
 		LoginPageclass_obj.enterpassword("sctest@123");
 		
-		logger.info("entered log in details");
+	logger.info("entered log in details");
 		
 		LoginPageclass_obj.clickonLogin();
 		
-		logger.info("clicked log in button");
+	logger.info("clicked log in button");
+	
+	Thread.sleep(3000);
 		
 		String Expected= "My Account";
 		String Actual= driver.getTitle();
