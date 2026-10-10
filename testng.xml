@@ -10,7 +10,7 @@
 </listeners>
 	 <test thread-count="5" name="Test">
 	    <classes>
-	      <class name="testlayer.Registerpagetestclass"/>
+	     
 	      <class name="testlayer.LoginTestclass"/>
 	    </classes>
 	  </test> <!-- Test -->
