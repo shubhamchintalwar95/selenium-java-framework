@@ -32,14 +32,15 @@ public class BaseClass {
  	public	RegisterClass RegisterClass_obj;
  	public LoginPageclass LoginPageclass_obj;
 	public static Logger logger;
- 	@BeforeTest()
+ 
+	@BeforeTest()
 public void start() {
  		
  		String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
 
-		String logFile = "./log/tetlog_" + timestamp + ".log";
+		String logFile = "./log/testlog_" + timestamp + ".log";
 
-		System.setProperty("logFile", logFile);
+		System.setProperty("logFile", logFile); 
 		
 		logger = Logger.getLogger("*** Test Data Driven Opencart Project ***");
 		
@@ -98,7 +99,7 @@ public void start() {
 	
 	public void TearDown() {
 		
-	driver.close();
+	driver.quit();
 		
 	}
 	

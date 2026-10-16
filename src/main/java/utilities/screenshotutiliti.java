@@ -22,8 +22,12 @@ public class screenshotutiliti extends BaseClass{
 			
 			File src = ts.getScreenshotAs(OutputType.FILE);
 			
-			File des= new File("D:\\ByteSqare\\SS\\" +name+ ".png");
+			String path = "./SS/" + name + ".png";
+			
+			File des= new File(path);
+			
 			 FileHandler.copy(src, des);
+			 
 		} catch (IOException e) {
 			
 			e.printStackTrace();

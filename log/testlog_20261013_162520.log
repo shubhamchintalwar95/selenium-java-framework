@@ -1,0 +1,9 @@
+2026-10-13 16:25:20,379 - *** Test Data Driven Opencart Project *** -INFO - -------- Open cart framework execution started --------
+2026-10-13 16:25:25,013 - *** Test Data Driven Opencart Project *** -INFO - landing on log in page
+2026-10-13 16:25:25,209 - *** Test Data Driven Opencart Project *** -INFO - entered log in details
+2026-10-13 16:25:25,285 - *** Test Data Driven Opencart Project *** -INFO - clicked log in button
+2026-10-13 16:25:35,027 - *** Test Data Driven Opencart Project *** -INFO - landing on log in page
+2026-10-13 16:25:35,224 - *** Test Data Driven Opencart Project *** -INFO - entered log in details
+2026-10-13 16:25:35,313 - *** Test Data Driven Opencart Project *** -INFO - clicked log in button
+2026-10-13 16:25:43,075 - *** Test Data Driven Opencart Project *** -INFO - This is a test logger message
+2026-10-13 16:25:43,364 - *** Test Data Driven Opencart Project *** -INFO - -------- Open cart framework execution finish --------

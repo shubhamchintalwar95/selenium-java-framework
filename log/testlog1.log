@@ -8,3 +8,36 @@
 2026-10-04 21:48:30,630 [main] INFO *** Test Data Driven Opencart Project *** - entered log in details
 2026-10-04 21:48:31,074 [main] INFO *** Test Data Driven Opencart Project *** - clicked log in button
 2026-10-04 21:48:34,321 [main] INFO *** Test Data Driven Opencart Project *** - -------- Open cart framework execution finish --------
+2026-10-13 16:21:45,418 - *** Test Data Driven Opencart Project *** -INFO - -------- Open cart framework execution started --------
+2026-10-13 16:21:45,418 [main] INFO *** Test Data Driven Opencart Project *** - -------- Open cart framework execution started --------
+2026-10-13 16:21:49,092 - *** Test Data Driven Opencart Project *** -INFO - This is a test logger message
+2026-10-13 16:21:49,092 [main] INFO *** Test Data Driven Opencart Project *** - This is a test logger message
+2026-10-13 16:21:49,303 - *** Test Data Driven Opencart Project *** -INFO - -------- Open cart framework execution finish --------
+2026-10-13 16:21:49,303 [main] INFO *** Test Data Driven Opencart Project *** - -------- Open cart framework execution finish --------
+2026-10-13 16:22:21,361 - *** Test Data Driven Opencart Project *** -INFO - -------- Open cart framework execution started --------
+2026-10-13 16:22:21,361 [main] INFO *** Test Data Driven Opencart Project *** - -------- Open cart framework execution started --------
+2026-10-13 16:22:26,026 - *** Test Data Driven Opencart Project *** -INFO - landing on log in page
+2026-10-13 16:22:26,026 [main] INFO *** Test Data Driven Opencart Project *** - landing on log in page
+2026-10-13 16:22:26,301 - *** Test Data Driven Opencart Project *** -INFO - entered log in details
+2026-10-13 16:22:26,301 [main] INFO *** Test Data Driven Opencart Project *** - entered log in details
+2026-10-13 16:22:26,424 - *** Test Data Driven Opencart Project *** -INFO - clicked log in button
+2026-10-13 16:22:26,424 [main] INFO *** Test Data Driven Opencart Project *** - clicked log in button
+2026-10-13 16:22:36,937 - *** Test Data Driven Opencart Project *** -INFO - landing on log in page
+2026-10-13 16:22:36,937 [main] INFO *** Test Data Driven Opencart Project *** - landing on log in page
+2026-10-13 16:22:37,267 - *** Test Data Driven Opencart Project *** -INFO - entered log in details
+2026-10-13 16:22:37,267 [main] INFO *** Test Data Driven Opencart Project *** - entered log in details
+2026-10-13 16:22:37,919 - *** Test Data Driven Opencart Project *** -INFO - clicked log in button
+2026-10-13 16:22:37,919 [main] INFO *** Test Data Driven Opencart Project *** - clicked log in button
+2026-10-13 16:22:44,726 - *** Test Data Driven Opencart Project *** -INFO - This is a test logger message
+2026-10-13 16:22:44,726 [main] INFO *** Test Data Driven Opencart Project *** - This is a test logger message
+2026-10-13 16:22:45,009 - *** Test Data Driven Opencart Project *** -INFO - -------- Open cart framework execution finish --------
+2026-10-13 16:22:45,009 [main] INFO *** Test Data Driven Opencart Project *** - -------- Open cart framework execution finish --------
+2026-10-13 16:25:20,379 [main] INFO *** Test Data Driven Opencart Project *** - -------- Open cart framework execution started --------
+2026-10-13 16:25:25,013 [main] INFO *** Test Data Driven Opencart Project *** - landing on log in page
+2026-10-13 16:25:25,209 [main] INFO *** Test Data Driven Opencart Project *** - entered log in details
+2026-10-13 16:25:25,285 [main] INFO *** Test Data Driven Opencart Project *** - clicked log in button
+2026-10-13 16:25:35,027 [main] INFO *** Test Data Driven Opencart Project *** - landing on log in page
+2026-10-13 16:25:35,224 [main] INFO *** Test Data Driven Opencart Project *** - entered log in details
+2026-10-13 16:25:35,313 [main] INFO *** Test Data Driven Opencart Project *** - clicked log in button
+2026-10-13 16:25:43,075 [main] INFO *** Test Data Driven Opencart Project *** - This is a test logger message
+2026-10-13 16:25:43,364 [main] INFO *** Test Data Driven Opencart Project *** - -------- Open cart framework execution finish --------

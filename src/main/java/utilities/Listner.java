@@ -26,6 +26,7 @@ public class Listner implements  ITestListener  {
 	public void onTestFailure(ITestResult result) {
 		
 		System.out.println("Execution Failed :-" + result.getName());
+		screenshotutiliti.Takescreenshot(result.getName());
 
 	}
 
